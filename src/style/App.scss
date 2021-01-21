@@ -1,0 +1,55 @@
+.webPage {
+    background-color: #3537DB;
+    .navbar {
+      height: 90px;
+      .nav-left{
+        .logo {
+          margin-left: 4rem;
+          color: white;
+        }
+      }
+      .nav-right {
+          margin-right: 4rem;
+        width: 45%;
+        padding-top: 1rem;
+        
+        ul {
+          list-style: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          
+          li {
+            color: white;
+            font-size: 18px;
+            letter-spacing: 1px;
+            
+          }
+          .home{
+            border:1px solid white ;
+            border-radius: 4px;
+            padding: 0.5rem 1rem;
+          }
+        }
+      }
+    }
+    .main{
+        .left{
+            padding:12rem 0rem 0rem 5rem;
+            
+            color: white;
+            button{
+                border: 1px solid white;
+                border-radius: 5px;
+                padding: 0.5rem;
+            }
+        }
+        .right{
+            
+            padding: 1rem 2rem 0rem;
+         
+        }
+    }
+  
+  }
